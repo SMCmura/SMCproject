@@ -5,7 +5,8 @@ body{
     overflow-wrap: normal;
 }
 img#title{
-    width: 100%;
+    width: 700px;
+    position: top;
 }
 #aboutme{
 
