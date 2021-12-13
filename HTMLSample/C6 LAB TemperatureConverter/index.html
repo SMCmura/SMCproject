@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Sumie Murakawa CIS111 Lab06 Fahrenheit to Celsius temperature converter -->
+<html>
+    <head>
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+        <h1>Temperature Converter</h1>
+        <script>
+       "use strict";
+       //Use prompt to “Input a Fahrenheit temperature”, store in a variable (create a meaningful name).
+       let strfImputData = prompt("Input a Fahrenheit temperature");
+       let fImputData = parseFloat(strfImputData);
+       //Convert to Celsius, store in another variable (create a meaningful name)
+       let resultFtoC = (fInputData - 32) * 5 / 9;
+       //Create a string with the html to display the output as shown below in paragraph tags.  Use toFixed(1) to display both temperatures with 1 decimal place.  
+
+       let strfImputDate = String(fInputData);
+       let strResultFtoC = String(resultFtoC.toFixed(1));
+       //document.getElementById("outputCelcius").innerHTML = fImputData;
+
+       </script>
+       <p> <span id="outputCelcius"></span></p>
+
+
+    <script>
+    //Use document.write to display the results on your html page
+    document.write(String(fInputData));
+
+    document.write("Coded by Sumie Murakawa");
+    </script>
+    </body>
+</html>
+
+

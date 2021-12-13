@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+    font: 14pt cursive;
+}
+#main{
+    border: 2px solid black;
+    width: 200px;
+    padding: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-size: 1.1em;
+}
+
+button{
+    width: 60px;
+    font-size: 1.1em;
+    background-color: antiquewhite;
+}

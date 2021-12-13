@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Sumie Murakawa CIS111 Simple Store -->
+<html>
+    <head>
+        <title>My Store</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="storeSTARTER.js" defer></script>
+    </head>
+    <body>
+        <h2>My Bakery Store</h2>
+        <p>Welcom to my bakery store!</p>
+        <div id="main">
+            <div id = "itemList">
+            </div>
+            <div id="imputItemQty">
+                <label for="item">Item</label>
+                <input id="item" typ="text" size="15">
+                <br>
+                <label for="qty">Qty</label>
+                <input id="qty" typ="text" size="15">
+                <br>
+                <button class="button" onclick="addItem()">Add Item</button>
+                <button class="button" onclick="newOrder()">New Order</button>
+            </div>
+            <div id="totalDue">
+                <h3 id="pTotalDue" >Total Due $</h3>
+            </div>
+            <div id="receipt">
+                <textarea id="txReceipt" name="receipt" rows="10" cols="50"></textarea>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: pink;
+    color: blue;
+
+}
+img#title{
+    width: 100%;  
+}
+
+li{
+    display: inline-block;
+}

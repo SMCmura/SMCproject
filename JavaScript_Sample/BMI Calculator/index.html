@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Sumie Murakawa CIS111 Javascript BMI Calculator -->
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="calcBMI.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <h2>BMI Calculator</h2>
+            <label for="hightF">Height(ft)</label>
+            <input id="hightF" typ="text" size="5">
+            <br>
+            <label for="hightI">Height(in)</label>
+            <input id="hightI" typ="text" size="5">
+            <br>
+            <label for="weight">Weight(lb)</label>
+            <input id="weight" typ="text" size="5">
+            <br>
+            <button onclick="calcBMI()">Calic BMI</button>
+            <button onclick="reset()">Clear</button>
+            <p id="bmi">BMI:</p>
+        </div>
+    </body>
+</html>
